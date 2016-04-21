@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Kishan Manjunath COMP1073 FINALS</title>
+	<!--linking bootstrap css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	
+	<!--inline css styling-->
+	<style type="text/css"> 
+	div.dice{
+		float: left;
+		width: 50px;
+		background: #F5F5F5;
+		border: #999 1px solid;
+		padding: 50px;
+		font-size:24px;
+		text-align: center;
+		margin: 5px;
+		 
+	}
+	</style>
+	</head>
+
+<body>
+	<!--applet heading-->
+<div class="jumbotron">
+    <div class="container">
+        <h1>Roll Dicer applet</h1>
+         </div>
+</div>
+
+<div class="container container-table">
+    <div class="row vertical-center-row">
+        <div class="text-center col-md-4 col-md-offset-4">
+            <!--creating div' & Outputs dice images depending on the generated number  -->
+            <div id="result"></div> 
+            <div id="dice1" class="dice">0</div> 
+            <div id="dice2" class="dice">0</div> 
+            <button onclick="rollDice()" class="btn btn-success" id="rollbutton">Roll Dice</button> <!--When clicked, activates rollDice()-->
+           <!--this is show the result-->
+		    <h2 id="status" style="clear:left;"></h2> 
+        </div>
+    </div>
+</div>
+</div>  
+
+    <!-- jQuery -->
+    <script src="Scripts/lib/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="Scripts/lib/bootstrap.min.js"></script>
+
+       <!-- Custom Theme JavaScript -->
+    <script src="Scripts/app.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+/**=Main=**/
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+/**=Roll Dice=**/
+div.dice {
+    display: table;
+    float: left;
+    padding: 70px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#rollbutton {
+    margin: 36px;
+}
+
+#status {
+    font-size: 32px;
+}
+
+#result {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
